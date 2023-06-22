@@ -1,6 +1,5 @@
 body {
-    
-    height: 3000px;
+    height: 2000px;
     width: 1200px;
     margin: auto;
 }
@@ -21,34 +20,20 @@ body {
     margin: 0 auto;
 }
 
-.member{
+form{
+    width: 800px;
+    margin: 0 auto;
     position: relative; top: 50px;
     text-align: center;
     font-size: 30px;
-    display: flex;
     justify-content: center;
     resize: none;
 }
 
-.member input{
-    position: relative; top: -10px;
-    height: 40px;
-    width: 200px;
-    resize: none;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.member textarea {
-    position: relative; top: 7px;
-    height: 40px;
-    width: 200px;
-    resize: none;
-    font-size: 14px;
-}
 #check {
     position: relative;
-    left: 50%;
-    top: 200px;
+    left: 100px;
+    top: 100px;
     transform: translate(-50%, -50%);
     position: relative; top: 50px;
     width: 100px;
@@ -56,13 +41,13 @@ body {
 
 #myMap{
     position: relative;
-    top: 50px;
+    top: 100px;
 }
 
 #printoutPanel{
     position: relative;
     margin-left: 420px;
-    top: 150px;
+    top: 300px;
     text-align: center;
 }
 
@@ -83,4 +68,11 @@ body {
     width: 100px;
     margin: 25px auto;
     font-size: 20px;
+}
+
+#result{
+    margin: 0 auto;
+}
+#open{
+    margin: 0 auto;
 }

@@ -241,3 +241,39 @@ function loadMapScenario() {
 }
 
 
+$("#open").click(function(){
+    var selectedValue = $("#result").val();
+
+    if (selectedValue === "#ff0000") {
+        $(".house").show();
+        $(".food").hide();
+        $(".work").hide();
+        $(".job").hide();
+        $(".others").hide();
+    } else if (selectedValue === "#008000") {
+        $(".house").hide();
+        $(".food").show();
+        $(".work").hide();
+        $(".job").hide();
+        $(".others").hide();
+    } else if (selectedValue === "#0000ff") {
+        $(".house").hide();
+        $(".food").hide();
+        $(".work").show();
+        $(".job").hide();
+        $(".others").hide();
+    } else if (selectedValue === "#ffff00") {
+        $(".house").hide();
+        $(".food").hide();
+        $(".work").hide();
+        $(".job").show();
+        $(".others").hide();
+    } else {
+        $(".house").hide();
+        $(".food").hide();
+        $(".work").hide();
+        $(".job").hide();
+        $(".others").show();
+    } 
+});
+
